@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WebAppInitializer",
+            "request": "launch",
+            "mainClass": "com.springboot.WebAppInitializer",
+            "projectName": "springboot"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WebAppInitializer",
+            "request": "launch",
+            "mainClass": "com.springboot.config.WebAppInitializer",
+            "projectName": "springboot"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WebpackdemoApplication",
+            "request": "launch",
+            "mainClass": "com.webapck.WebpackdemoApplication",
+            "projectName": "springboot"
+        }
+    ]
+}
