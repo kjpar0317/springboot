@@ -12,7 +12,11 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'application'
 apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+mainClassName = 'com.springboot.WebAppInitializer'
 
 jar {
 	baseName = 'springboot'
@@ -24,7 +28,6 @@ targetCompatibility = 1.8
 repositories {
 	mavenCentral()
 }
-
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-devtools')
